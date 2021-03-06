@@ -1,5 +1,33 @@
+
 body {
   width: 100%;
   height: 100%;
   margin: 0;
 }
+
+header {
+  text-align: center;
+}
+
+figure {
+  text-align: center;
+}
+
+nav a {
+  padding: 10px;
+  background: grey;
+}
+
+p#featured-property {
+  width: 800px;
+  text-align: center;
+  padding: 10px;
+  }
+
+#details {
+    float: left;
+    background: red;
+    width: 25%;
+    padding: 20px;
+}
+ 
