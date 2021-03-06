@@ -1,3 +1,6 @@
+html {
+  box-sizing: border-box;
+  } /*reset for every */
 
 body {
   width: 100%;
@@ -18,16 +21,20 @@ nav a {
   background: grey;
 }
 
-p#featured-property {
+#featured-property p{
   width: 800px;
   text-align: center;
-  padding: 10px;
   }
 
-#details {
+#featured-property img{
+  text-align: center;
+}
+
+#details div {
     float: left;
     background: red;
     width: 25%;
-    padding: 20px;
+    text-align: center;
 }
+
  
